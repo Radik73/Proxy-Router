@@ -10,7 +10,7 @@
 	<ID3>6</ID3>
 	<ID4>7</ID4></production_like>
 		
-	<production value="127.0.0.1:8885">
+    <production value="127.0.0.1:8885">
         <ID1>8</ID1>
         <ID2>9</ID2>
 	<ID3>10</ID3>
