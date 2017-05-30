@@ -36,7 +36,6 @@ class Device():
         delay = dlcn.delay_config()
         try:
             while True:
-
                 time.sleep(int(delay))
                 data  = self.__request_shaper(self.id_device)
                 print('Request: ' + str(data) + '\n')
