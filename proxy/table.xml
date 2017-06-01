@@ -1,0 +1,19 @@
+<Root>
+    <staging value="127.0.0.1:8888">
+        <ID1>1</ID1>
+        <ID2>2</ID2>
+        <ID3>3</ID3></staging>
+		
+    <production_like value="127.0.0.1:8887">
+        <ID1>4</ID1>
+        <ID2>5</ID2>
+	    <ID3>6</ID3>
+	    <ID4>7</ID4></production_like>
+		
+    <production value="127.0.0.1:8885">
+        <ID1>8</ID1>
+        <ID2>9</ID2>
+	    <ID3>10</ID3>
+        <ID4>11</ID4>
+	    <ID5>12</ID5></production>
+</Root>
