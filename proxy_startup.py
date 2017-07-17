@@ -2,11 +2,11 @@ import tornado.web
 import tornado.httpclient
 from tornado.ioloop import IOLoop
 
-
 from proxy.proxy_main import MainHandler
 from proxy.route_table import RouteTable
 from proxy.settings_parser import settings_parser
 from utilities.logger_operator import Logger
+
 
 app_settings = dict(
              debug=True,
