@@ -11,11 +11,11 @@ class RouteTable():
         try:
             address = self.__route_table[id]
             self.log.info('Select: {address} for device with id: {id} '
-                          .format(address=address, id=self.__route_table[id]))
+                          .format(address=address, id=id))
             return address
         except KeyError:
             self.log.info('Select: {address} for device with id: {id} '
-                          .format(address=self.__additional_address, id=self.__route_table[id]))
+                          .format(address=self.__additional_address, id=id))
             return self.__additional_address
 
     def __create_table(self, path_to_table):
